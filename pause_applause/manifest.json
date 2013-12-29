@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "PauseApplause",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Disable displaying any likes and notifications in social network",
   "page_action": {
     "default_title": "PauseApplause"
@@ -11,5 +11,6 @@
     "matches": ["https://vk.com/*"],
     "css": ["pause_applause_vk_com.css"]
   }],
-  "homepage_url": "http://pause-applause.alerticus.ru"
+  "homepage_url": "http://pause-applause.alerticus.ru",
+  "update_url": "https://raw.github.com/AlexanderPavlenko/pause_applause/master/updates.xml"
 }
