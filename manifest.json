@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "PauseApplause",
+  "version": "0.0.1",
+  "description": "Disable displaying any likes and notifications in social network",
+  "page_action": {
+    "default_title": "PauseApplause"
+  },
+  "author": "Alexander Pavlenko <alerticus@gmail.com>",
+  "content_scripts": [{
+    "matches": ["https://vk.com/*"],
+    "css": ["pause_applause_vk_com.css"]
+  }],
+  "homepage_url": "http://pause-applause.alerticus.ru"
+}

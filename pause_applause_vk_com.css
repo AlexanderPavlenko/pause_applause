@@ -1,0 +1,39 @@
+/* likes on posts */
+.post_like {
+  display: none;
+}
+
+/* likes on comments */
+.like_wrap {
+  display: none;
+}
+
+/* likes on photos */
+#pv_like_wrap {
+  display: none;
+}
+
+/* likes on videos */
+#mv_like_wrap {
+  display: none;
+}
+
+/* hide lonely divider */
+#pv_wide > .divider, #mv_wide > .divider {
+  display: none;
+}
+
+/* like on feedback item */
+.feedback_like_wrap {
+  display: none;
+}
+
+/* likes on feedback page */
+.feedback_grouped_row_wrap {
+  display: none;
+}
+
+/**
+ * Also, don't forget to disable unwanted notifications at
+ * https://vk.com/settings?act=notify
+ */
