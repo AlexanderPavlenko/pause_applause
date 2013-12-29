@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "PauseApplause",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Disable displaying any likes and notifications in social network",
   "page_action": {
     "default_title": "PauseApplause"
