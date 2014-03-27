@@ -1,50 +1,50 @@
 /* likes on posts */
-.post_like {
+body:not(.show_likes_on_posts) .post_like {
   display: none;
 }
 
 /* likes on post page */
-.fw_like_wrap {
+body:not(.show_likes_on_post_page) .fw_like_wrap {
   display: none;
 }
 /* hide lonely divider */
-.fw_post_date .divide:last-child {
+body:not(.show_likes_on_post_page) .fw_post_date .divide:last-child {
   display: none;
 }
 
 /* likes on comments */
-.like_wrap {
+body:not(.show_likes_on_comments) .like_wrap {
   display: none;
 }
 /* hide lonely divider */
-.fw_reply_date .divide:last-child {
-  display: none;
-}
-
-/* likes on feedback page */
-.feedback_grouped_row_wrap {
+body:not(.show_likes_on_comments) .fw_reply_date .divide:last-child {
   display: none;
 }
 
 /* like on feedback item */
-.feedback_like_wrap {
+body:not(.show_likes_on_comments) .feedback_like_wrap {
+  display: none;
+}
+
+/* likes on feedback page */
+body:not(.show_likes_on_feedback_page) .feedback_grouped_row_wrap {
   display: none;
 }
 
 /* likes on photos */
-#pv_like_wrap {
+body:not(.show_likes_on_photos) #pv_like_wrap {
   display: none;
 }
 /* hide lonely divider */
-#pv_wide > .divider {
+body:not(.show_likes_on_photos) #pv_wide > .divider {
   display: none;
 }
 
 /* likes on videos */
-#mv_like_wrap {
+body:not(.show_likes_on_videos) #mv_like_wrap {
   display: none;
 }
 /* hide lonely divider */
-#mv_wide > .divider {
+body:not(.show_likes_on_videos) #mv_wide > .divider {
   display: none;
 }
