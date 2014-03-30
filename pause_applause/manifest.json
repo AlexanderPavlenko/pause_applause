@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "PauseApplause",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Disable displaying any likes and notifications in social network",
   "author": "Alexander Pavlenko <alerticus@gmail.com>",
   "content_scripts": [{
