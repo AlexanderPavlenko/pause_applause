@@ -12,6 +12,11 @@ body:not(.show_likes_on_post_page) .fw_post_date .divide:last-child {
   display: none;
 }
 
+/* likes on post popup */
+body:not(.show_likes_on_post_page) .wl_post_like_wrap {
+  display: none;
+}
+
 /* likes on comments */
 body:not(.show_likes_on_comments) .like_wrap {
   display: none;
